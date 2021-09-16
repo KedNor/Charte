@@ -5,5 +5,5 @@ let list = ["Noreddine","Aline","Blandine","Cécile","William","Vincent","Romain
 function generator() {
  document.getElementById("APPRENANT").innerHTML = list[Math.floor(Math.random() * list.length)];
 }
-setInterval(function(generator) {document.getElementById('APPRENANT').innerHTML = "RANDOM APPRENANT";
+setTimeout(function(generator) {document.getElementById('APPRENANT').innerHTML = "RANDOM APPRENANT";
 },3000);

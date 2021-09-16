@@ -24,7 +24,6 @@ header {
 .panel {
   display: inline-flex;
   overflow: hidden;
-
 }
 
 .accordion {
@@ -38,6 +37,7 @@ header {
 
 h4 {
   font-weight: 400px;
+  font-size: 21px;
 }
 
 .content {
@@ -58,4 +58,7 @@ ul li {
 
 .cache {
   display: none;
+}
+#centerBtn {
+  text-align: center;
 }
